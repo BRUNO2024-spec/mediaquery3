@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="navegacao">
+           
+                <a href="#">VPS</a><br>
+                <a href="#">Hospedagem</a><br>
+                <a href="#">Dedicado</a><br>
+                <a href="#">CDN</a><br>
+                <a href="#">Domínios</a><br>
+            
+        </menu>
+    </header>
+    <section>
+        <article>
+            <h1>Testando menu Responsivo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae magni cum, dolorem quam amet nulla vel totam consequatur rem, obcaecati, assumenda culpa odio perspiciatis corrupti! Voluptas a quis atque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptates iusto nostrum, suscipit sapiente amet porro placeat, at, architecto neque voluptatum! Minus maxime sequi blanditiis fuga iusto ducimus voluptas et!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, necessitatibus dolore eum obcaecati, at nostrum ullam hic eius culpa commodi illo magnam autem voluptatibus, quos nulla vitae molestiae dicta voluptas!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ratione rem officia suscipit, incidunt ut ab facere. Beatae, doloremque corrupti hic quas aspernatur praesentium vero animi sequi, sapiente, ipsum porro?</p>
+        </article>
+    </section>
+    <script>
+        function clickMenu(){
+           if (navegacao.style.display == 'block') {
+               navegacao.style.display = 'none'
+           } else{
+            navegacao.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
